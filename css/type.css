@@ -1,0 +1,80 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url('images/timg.jpg');
+    background-size: 100%;
+    background-repeat: repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.flex-container {
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    opacity: 0.4;
+}
+
+.button_left {
+    position: absolute;
+    left: 410px;
+    width: 100px;
+    padding: 4px;
+    opacity: 0.4;
+}
+
+.button_right {
+    position: absolute;
+    right: 410px;
+    width: 100px;
+    padding: 5px;
+    opacity: 0.4;
+}
+
+.node {
+    cursor: auto;
+}
+
+.node circle {
+    fill: rgb(174, 53, 164);
+    stroke: rgb(224, 124, 9);
+    stroke-width: 3px;
+}
+
+.node rect {
+    fill: #800000;
+    stroke: #800000;
+    stroke-width: 5px;
+}
+
+.node text {
+    font: 12px "楷体", sans-serif;
+}
+
+.link {
+    fill: none;
+    stroke: rgb(28, 235, 166);
+    stroke-width: 2px;
+}
+
+#title {
+    text-align: center;
+    color: rgb(73, 26, 245);
+    font: 30px "楷体", sans-serif;
+    font-weight: normal;
+    line-height: 70px;
+    text-shadow: rgb(34, 34, 34) 2px 2px 3px;
+    background: rgb(243, 111, 49);
+}
