@@ -2,7 +2,7 @@
 
 ##### 目录说明：
 
-- 家族树
+- 师门树
   - bootstrap:bootstrap框架文件
   - css:网页的css样式文件
   - images:插入的图片
